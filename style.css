@@ -399,7 +399,7 @@ img {
 
 @media (max-width: 600px) {
     .showcase-content {
-        margin-top: -1rem;
+        margin-top: 1.5rem;
     }   
 
     .showcase-content h1 {
