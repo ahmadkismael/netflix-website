@@ -94,7 +94,7 @@ img {
 
 .showcase-content h1 {
     font-weight: 700;
-    font-size: 4.2rem;
+    font-size: 4rem;
     line-height: 1;
     margin: 0 0 2rem;
 }
@@ -299,7 +299,7 @@ img {
 }
 
 .btn-xl {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
 }
@@ -395,5 +395,25 @@ img {
       margin-top: 1rem;
   }   
 
+}
+
+@media (max-width: 600px) {
+    .showcase-content {
+        margin-top: 1rem;
+    }   
+
+    .showcase-content h1 {
+        font-size: 2rem;
+        line-height: 1;
+      }
+    
+      .showcase-content p {
+        font-size: 1.2rem;
+      }
+    
+      .btn-xl {
+        font-size: 1rem;
+    }
+    
 }
   
