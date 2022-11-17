@@ -2,6 +2,7 @@
     --primary-color: rgb(221, 25, 25);
     --dark-color: #141414;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +20,10 @@ ul {
     list-style: none;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #fff;
 }
 
@@ -115,9 +119,10 @@ img {
     border-bottom: 3px solid #3d3d3d;
     border-right: none;
 }
+
 .tabs .container {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     align-items: center;
     justify-content: center;
@@ -129,11 +134,11 @@ img {
     padding-top: 0.5rem;
 }
 
-.tabs .container > div {
-   padding: 1.5rem 0;
+.tabs .container>div {
+    padding: 1.5rem 0;
 }
 
-.tabs .container > div:hover {
+.tabs .container>div:hover {
     color: white;
     cursor: pointer;
 }
@@ -224,7 +229,8 @@ img {
     overflow: auto;
 }
 
-.footer, .footer a {
+.footer,
+.footer a {
     color: #fff;
     font-size: 0.9rem;
 }
@@ -290,7 +296,7 @@ img {
     cursor: pointer;
     margin-right: 0.5rem;
     outline: none;
-    box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
     border-radius: 2px;
 }
 
@@ -303,6 +309,7 @@ img {
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
 }
+
 .btn-lg {
     font-size: 1rem;
     padding: 0.8rem 1.3rem;
@@ -367,7 +374,7 @@ img {
     .showcase::after {
         box-shadow: inset 75px 75px 250px #000000, inset -75px -75px 250px #000000;
     }
-    
+
     #tab-1-content .tab-1-content-inner {
         grid-template-columns: 1fr;
         text-align: center;
@@ -380,41 +387,41 @@ img {
 
     #tab-2-content .tab-2-content-bottom {
         grid-template-columns: 1fr;
-        
+
     }
+
     .btn-xl {
-		font-size: 1rem;
-		padding: 1.2rem 1.6rem;
-		text-transform: uppercase;
-	}
+        font-size: 1rem;
+        padding: 1.2rem 1.6rem;
+        text-transform: uppercase;
+    }
 
 }
 
 @media(max-height: 600px) {
     .showcase-content {
-      margin-top: 1rem;
-  }   
+        margin-top: 1rem;
+    }
 
 }
 
-@media (max-width: 600px) {  
+@media (max-width: 600px) {
 
     .showcase-content {
-        margin-top: 0.3rem;
+        margin-top: 0.6rem;
     }
 
     .showcase-content h1 {
         font-size: 2rem;
         line-height: 1;
-      }
-    
-      .showcase-content p {
+    }
+
+    .showcase-content p {
         font-size: 1.2rem;
-      }
-    
-      .btn-xl {
+    }
+
+    .btn-xl {
         font-size: 1rem;
     }
-    
+
 }
-  
